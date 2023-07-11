@@ -1,0 +1,24 @@
+<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="akar-icons:youtube-fill" clip-path="url(#clip0_316_61)" filter="url(#filter0_i_316_61)">
+<g id="Group">
+<g id="Group_2">
+<path id="Vector" d="M26.5897 8.04849C26.4374 7.51163 26.1407 7.02558 25.7312 6.64202C25.3101 6.24666 24.794 5.96385 24.2316 5.82028C22.1267 5.27209 13.6938 5.27209 13.6938 5.27209C10.1782 5.23257 6.66351 5.4064 3.1695 5.7926C2.60707 5.94677 2.09192 6.2359 1.66987 6.63426C1.25517 7.02852 0.954798 7.51469 0.797886 8.04738C0.420953 10.0538 0.237814 12.0911 0.250936 14.1317C0.237486 16.1706 0.420177 18.2072 0.797886 20.2161C0.951435 20.7466 1.25069 21.2305 1.6665 21.6215C2.08232 22.0124 2.60013 22.2948 3.1695 22.4443C5.30238 22.9914 13.6938 22.9914 13.6938 22.9914C17.2139 23.031 20.733 22.8571 24.2316 22.4709C24.794 22.3273 25.3101 22.0445 25.7312 21.6492C26.1459 21.2582 26.4406 20.7721 26.5886 20.2427C26.9754 18.237 27.1634 16.1989 27.1501 14.1572C27.1792 12.1069 26.9914 10.0591 26.5897 8.04738V8.04849ZM11.0128 17.9237V10.3409L18.029 14.1329L11.0128 17.9237Z" fill="#485B7C"/>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_i_316_61" x="0.250931" y="0.842285" width="26.8992" height="30.5791" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="7.5"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_316_61"/>
+</filter>
+<clipPath id="clip0_316_61">
+<rect width="26.8992" height="26.579" fill="white" transform="translate(0.250931 0.842285)"/>
+</clipPath>
+</defs>
+</svg>

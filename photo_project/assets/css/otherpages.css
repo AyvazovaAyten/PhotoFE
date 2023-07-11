@@ -1,0 +1,16 @@
+#header {
+    background: rgba(179, 166, 166, 0.09);
+    box-shadow: 0px -18px 49px 2px rgba(173, 173, 173, 0.15);
+  }
+  
+  .nav-item.active {
+    border-bottom: 0.5px solid #FFF;
+  }
+  
+  .nav-item {
+    color: #FFF;
+  }
+  
+  select {
+    background-image: url("../images/icons/Polygon\ 1\ copy.svg");
+  }

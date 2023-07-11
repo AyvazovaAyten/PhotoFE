@@ -1,0 +1,320 @@
+
+#header {
+    background: #FFF;
+    box-shadow: 0px -18px 49px 2px rgba(173, 173, 173, 0.15);
+}
+
+.nav-item {
+    color: #000;
+}
+
+.nav-item:hover {
+    text-shadow: 1px 1px rgba(54, 53, 53, 0.26);
+}
+
+.nav-item.active {
+    border-bottom: 0.5px solid black;
+}
+
+select {
+    background-image: url("../images/icons/Polygon\ 1.svg");
+}
+
+.intro-section {
+    padding-top: 100px;
+}
+
+.intro-img {
+    border-radius: 10px;
+    width: 750px;
+    margin-top: 30px;
+}
+
+#portfolio-btn {
+    margin-right: 30px;
+}
+
+.intro {
+    display: flex;
+}
+
+.intro-left {
+    width: 50%;
+}
+
+.into-left_container {
+    width: 492px;
+}
+
+.intro-left {
+    margin-top: 170px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+.text p {
+    font-size: 24px;
+    padding-top: 24px;
+    align-self: flex-end;
+    /* margin-left: 28%; */
+}
+
+.buttons {
+    margin: 64px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-img {
+    display: block;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.buttons button {
+    width: 220px;
+    height: 70px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #000;
+    background: #FFF;
+    color: #000;
+    font-size: 20px;
+    font-family: JejuMyeongjo;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.buttons button:hover {
+    background-color: #000;
+    color: #FFF;
+}
+
+.text h1 {
+    color: #000;
+    font-size: 120px;
+    font-family: AmstelvarAlpha;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 24px;
+}
+
+
+
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, rgb(155 156 157 / 41%), rgb(87 89 91 / 59%)), url(../images/pexels-pixabay-274973\ 2.png);
+    background-position: 25% 97%;
+    background-size: cover;
+    color: #FFF;
+}
+
+.about-text p {
+    padding: 0 86px;
+}
+
+.about-text h2 {
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+.portfolio-section{
+    margin-bottom: 32px;
+}
+.estate-section{
+    margin-top: 20px;
+}
+
+#more-btn {
+    margin-top: 30px;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #FFF;
+    background: none;
+    color: #FFF;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.item {
+    max-width: 100% !important;
+}
+
+#more-btn:hover {
+    background-color: #FFF;
+    color: #000;
+}
+
+.page-header {
+    color: #000;
+    font-size: 56px;
+    font-family: JejuMyeongjo;
+    padding: 30px 0;
+    margin-top: 70px;
+}
+
+.estate-text{
+    text-align: center;
+    max-width: 800px;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.column-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.images-grid {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    width: 100%;
+    height: 100%;
+}
+
+.grid-item {
+    max-width: calc(100%/3 - 10px);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.item {
+    max-width: 100% !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#portfolio-more-btn {
+    width: 492px;
+    height: 70px;
+    border: 1px solid #000;
+    background: none;
+    cursor: pointer;
+    max-width: 100%;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+#portfolio-more-btn:hover {
+    background: #000;
+    color: #FFF;
+}
+
+.left-col .item:first-child {
+    width: 493px;
+    height: 350px;
+    border-radius: 50px 10px 10px 10px;
+    background-image: url('../images/portfolio/pexels-shahin-khalaji-11697187\ 1.png');
+    margin-bottom: 12px;
+}
+
+.left-col .item:nth-child(2) {
+    width: 493px;
+    height: 350px;
+    border-radius: 10px 10px 50px 10px;
+    background-image: url('../images/portfolio/pexels-onur-çağlar-yılmaz-12602072\ 2.png');
+
+}
+
+.mid-col .item:first-child {
+    width: 493px;
+    height: 450px;
+    border-radius: 10px 10px 50px 10px;
+    background-image: url('../images/portfolio/pexels-pixabay-219575\ 1.png');
+    margin-bottom: 12px;
+}
+
+.mid-col .item:nth-child(2) {
+    width: 493px;
+    height: 170px;
+    border-radius: 50px 0px;
+    background-image: url('../images/portfolio/pexels-aleksey-nosov-11188595\ 1.png');
+    border-radius: 10px 10px 50px 10px;
+}
+
+.right-col .item:first-child {
+    width: 493px;
+    height: 350px;
+    border-radius: 10px 50px 10px 10px;
+    background-image: url('../images/portfolio/pexels-david-underland-3953048\ 2.png');
+    margin-bottom: 12px;
+}
+
+.right-col .item:nth-child(2) {
+    width: 493px;
+    height: 350px;
+    border-radius: 10px 10px 10px 50px;
+    background-image: url('../images/portfolio/pexels-lisa-fotios-12146278\ 1.png');
+}
+
+.about-text {
+    width: 570px;
+    height: 570px;
+    color: #FFF;
+    text-align: center;
+    font-size: 22px;
+    font-family: JejuMyeongjo;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.estate-img{
+    background-image: url('../images/pexels-sonny-sixteen-9988045\ 2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh - 240px);
+}
+
+
+.food-section{
+    margin-bottom: 200px;
+}
+#food-more-btn{
+    width: 480px;
+    height: 68px;
+    border-radius: 10px;
+border: 1px solid #000;
+background: none;
+color: #000;
+font-size: 20px;
+cursor: pointer;
+transition: .5s;
+margin-top: 30px;
+}
+#food-more-btn:hover{
+    background: #000;
+color: #FFF;
+}
+
+.food-images{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.food-img{
+    border-radius: 10px;
+    overflow: hidden;
+}
+.food-img img{
+    width: 100%;
+    height: auto;
+}
+.food-img:first-child{
+    margin-right: 20px;
+}
