@@ -1,16 +1,29 @@
 #header {
     background: rgba(179, 166, 166, 0.09);
     box-shadow: 0px -18px 49px 2px rgba(173, 173, 173, 0.15);
-  }
-  
-  .nav-item.active {
-    border-bottom: 0.5px solid #FFF;
-  }
-  
-  .nav-item {
     color: #FFF;
+  }
+  #header.scrolled{
+    color: black;
+    background: #FFF;
+  }
+  .nav-item.active {
+    border-bottom: 0.5px solid;
+    border-color: inherit;
   }
   
   select {
     background-image: url("../images/icons/Polygon\ 1\ copy.svg");
   }
+  .text-wrapper{
+    border-radius: 0px 0px 10px 10px;
+    background: rgba(0, 0, 0, 0.20);
+    padding: 0 40px;
+  }
+
+.text-wrapper.estate-text{
+
+    max-width: 640px;
+    padding-left: 140px;
+
+}

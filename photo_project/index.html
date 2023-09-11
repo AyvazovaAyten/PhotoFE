@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Faiq Agayev</title>
+    <title>Agayev Pro</title>
     <link rel="stylesheet" href="./assets/css/common.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/font.css">
@@ -17,7 +17,7 @@
                 <a href="#" class="nav-item active" data-scroll="main">Главная</a>
                 <a href="./portfolio.html" class="nav-item" data-scroll="portfolio">Портфолио</a>
                 <a href="./realestate.html" class="nav-item" data-scroll="real-estate">Real estate</a>
-                <a href="./foodphoto.html" class="nav-item" data-scroll="food-photo">Фото еды</a>
+                <a href="./foodphoto.html" class="nav-item" data-scroll="food-photo">Food photography</a>
                 <a href="./about.html" class="nav-item" data-scroll="about">Обо мне</a>
                 <a href="./review.html" class="nav-item">Отзывы</a>
                 <a href="./contacts.html" class="nav-item" data-scroll="contacts">Контакты</a>
@@ -40,14 +40,14 @@
                         <p>Профессиональный фотограф</p>
                     </div>
                     <div class="buttons">
-                        <button id="portfolio-btn" onclick="window.location.href='./portfolio.html';">Портфолио</button>
-                        <button id="order-btn">Заказать съёмку</button>
+                        <button id="portfolio-btn" class="btn" onclick="window.location.href='./portfolio.html';">Портфолио</button>
+                        <a id="order-btn" class="btn" href="whatsapp://send?phone=+99450823320">Заказать съёмку</a>
                     </div>
                 </div>
 
             </div>
             <div class="intro-img">
-                <img class="main-img" src="./assets/images/myphotos/паи (1 of 1)-2.jpg" alt="">
+                <img class="main-img" src="./assets/images/паи (1 of 1)-2.jpg" alt="">
             </div>
         </div>
     </section>
@@ -60,7 +60,7 @@
                     людей. Главное в них — это натуральность, правдивость. Я не пытаюсь вмешиваться в событие,
                     переделать
                     его. Нам важен живой и настоящий репортаж.</p>
-                <button id="more-btn">Подробнее</button>
+                <button id="more-btn" onclick="window.location.href='./about.html';">Подробнее</button>
             </div>
         </div>
 
@@ -70,18 +70,18 @@
             <h2 class="page-header">Портфолио</h2>
             <div class="images-grid">
                 <div class="grid-item left-col">
-                    <div class="item"></div>
-                    <div class="item"></div>
+                    <div class="item black-white"><img src="./assets/images/portfolio/1 (14 of 35).png" alt=""/></div>
+                    <div class="item black-white"><img src="./assets/images/portfolio/1 (28 of 31).jpg" alt=""/></div>
                 </div>
                 <div class="grid-item mid-col">
-                    <div class="item "></div>
-                    <div class="item"></div>
+                    <div class="item black-white"><img src="./assets/images/portfolio/1 (10 of 31).jpg" alt=""/></div>
+                    <div class="item black-white"><img src="./assets/images/portfolio/1 (22 of 28).png" alt=""/></div>
                     <button class="btn" id="portfolio-more-btn"
                         onclick="window.location.href='./portfolio.html';">Подробнее</button>
                 </div>
                 <div class="grid-item right-col">
-                    <div class="item"></div>
-                    <div class="item"></div>
+                    <div class="item black-white"><img src="./assets/images/portfolio/1 (14 of 28).png" alt=""/></div>
+                    <div class="item black-white"><img src="./assets/images/portfolio/1 (25 of 28).png" alt=""/></div>
                 </div>
             </div>
         </div>
@@ -92,17 +92,17 @@
             <p class="estate-text">Вам нужно продать, сдать или рекламировать вашу недвижимость?
                 Профессиональные фото - то, без чего нельзя обойтись</p>
         </div>
-        <div class="estate-img"></div>
+        <div class="estate-img black-white" style="background-image: url('./assets/images/backgrounds/estatebg.png');"></div>
     </section>
-    <section class="food-section page-section">
+    <section class="food-section page-section last-section">
         <div class="container column-center">
             <h2 class="page-header">Food photography</h2>
             <div class="food-images">
-                <div class="food-img">
-                    <img src="./assets/images/food/pexels-onur-çağlar-yılmaz-12602072 1.png" alt="">
+                <div class="food-img black-white">
+                    <img src="./assets/images/food/1 (31 of 31).jpg" alt="">
                 </div>
-                <div class="food-img">
-                    <img src="./assets/images/food/pexels-ceng-ismail-5658266 1.png" alt="">
+                <div class="food-img black-white">
+                    <img src="./assets/images/food/1 (6 of 12).jpg" alt="">
                 </div>
             </div>
             <button id="food-more-btn" class="btn"
@@ -112,7 +112,7 @@
 
     <footer id="footer">
         <div class="footer-text">
-            <p>Faiq Agayev</p>
+            <p>Agayev Pro</p>
             <span>professional photographer</span>
         </div>
         <div class="footer-icons">
@@ -166,6 +166,7 @@
             </a>
         </div>
     </footer>
+    <script src="./js/index.js"></script>
 </body>
 
 </html>

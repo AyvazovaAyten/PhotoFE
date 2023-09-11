@@ -1,0 +1,21 @@
+.reviews-section{
+    text-align: center;
+    padding-top: 130px;
+}
+.images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 16px;
+}
+
+.image-wrapper {
+    height: 340px;
+}
+
+.image-wrapper img {
+    object-fit: initial;
+}
+#header{
+    background: white;
+}

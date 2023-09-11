@@ -72,6 +72,7 @@ select {
     margin: 64px 0;
     display: flex;
     justify-content: space-between;
+    text-decoration: none;
 }
 
 .main-img {
@@ -80,7 +81,7 @@ select {
     border-radius: 4px;
 }
 
-.buttons button {
+.buttons .btn {
     width: 220px;
     height: 70px;
     flex-shrink: 0;
@@ -94,7 +95,7 @@ select {
     transition: .5s;
 }
 
-.buttons button:hover {
+.buttons .btn:hover {
     background-color: #000;
     color: #FFF;
 }
@@ -108,7 +109,6 @@ select {
     line-height: normal;
     letter-spacing: 24px;
 }
-
 
 
 .about-section {
@@ -201,6 +201,7 @@ select {
     max-width: 100% !important;
     background-size: cover;
     background-repeat: no-repeat;
+    overflow: hidden;
 }
 
 #portfolio-more-btn {
@@ -223,23 +224,24 @@ select {
     width: 493px;
     height: 350px;
     border-radius: 50px 10px 10px 10px;
-    background-image: url('../images/portfolio/pexels-shahin-khalaji-11697187\ 1.png');
     margin-bottom: 12px;
+}
+.item img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 .left-col .item:nth-child(2) {
     width: 493px;
     height: 350px;
     border-radius: 10px 10px 50px 10px;
-    background-image: url('../images/portfolio/pexels-onur-çağlar-yılmaz-12602072\ 2.png');
-
 }
 
 .mid-col .item:first-child {
     width: 493px;
     height: 450px;
     border-radius: 10px 10px 50px 10px;
-    background-image: url('../images/portfolio/pexels-pixabay-219575\ 1.png');
     margin-bottom: 12px;
 }
 
@@ -247,7 +249,6 @@ select {
     width: 493px;
     height: 170px;
     border-radius: 50px 0px;
-    background-image: url('../images/portfolio/pexels-aleksey-nosov-11188595\ 1.png');
     border-radius: 10px 10px 50px 10px;
 }
 
@@ -255,7 +256,6 @@ select {
     width: 493px;
     height: 350px;
     border-radius: 10px 50px 10px 10px;
-    background-image: url('../images/portfolio/pexels-david-underland-3953048\ 2.png');
     margin-bottom: 12px;
 }
 
@@ -263,7 +263,6 @@ select {
     width: 493px;
     height: 350px;
     border-radius: 10px 10px 10px 50px;
-    background-image: url('../images/portfolio/pexels-lisa-fotios-12146278\ 1.png');
 }
 
 .about-text {
@@ -281,16 +280,12 @@ select {
 }
 
 .estate-img{
-    background-image: url('../images/pexels-sonny-sixteen-9988045\ 2.png');
     background-size: cover;
     background-repeat: no-repeat;
-    height: calc(100vh - 240px);
+    height: calc(100vh - 260px);
 }
 
 
-.food-section{
-    margin-bottom: 200px;
-}
 #food-more-btn{
     width: 480px;
     height: 68px;

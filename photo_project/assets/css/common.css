@@ -107,7 +107,8 @@ blockquote,
 q {
     quotes: "" "";
 }
-.page-text{
+
+.page-text {
     margin-bottom: 30px;
     font-size: 30px;
 }
@@ -117,6 +118,16 @@ q {
     width: 100%;
     position: fixed;
     z-index: 10;
+    color: black;
+    transition: .4s linear;
+}
+
+#header.scrolled{
+    height: 80px;
+}
+
+.nav-item{
+    color: inherit;
 }
 
 .navbar {
@@ -168,15 +179,27 @@ select {
 .page-section {
     min-height: calc(100vh - 100px);
 }
-.footer-icons .icon{
+
+.footer-icons .icon {
     transition: .5s;
 }
-.footer-icons .icon:hover{
-opacity: .7;
+
+.footer-icons .icon:hover {
+    opacity: .7;
 }
-.btn{
+
+.btn {
     border-radius: 10px;
     transition: .5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+.last-section{
+    margin-bottom: 160px;
 }
 
 
@@ -228,21 +251,35 @@ opacity: .7;
     background-color: #FFF;
 }
 
+.black-white {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    transition: .4s;
+}
+
+.black-white:hover {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
 
 
 @media (min-width: 240px) and (max-width: 479px) {
-
+    .black-white {
+        -webkit-filter: grayscale(0%);
+        filter: grayscale(0%);
+    }
 }
+
 @media (min-width: 480px) and (max-width: 767px) {
+    .black-white {
+        -webkit-filter: grayscale(0%);
+        filter: grayscale(0%);
+    }
 
 }
 
-@media (min-width: 768px) and (max-width: 1023px){
+@media (min-width: 768px) and (max-width: 1023px) {}
 
-}
-@media (min-width: 1024px) and (max-width: 1280px){
+@media (min-width: 1024px) and (max-width: 1280px) {}
 
-}
-@media only screen and (min-width: 1281px){
-    
-}
+@media only screen and (min-width: 1281px) {}
